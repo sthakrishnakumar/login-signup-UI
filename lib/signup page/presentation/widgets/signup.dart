@@ -3,7 +3,7 @@ import 'dart:developer';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:login_signup_ui/login%20page/login.dart';
+import 'package:login_signup_ui/login%20page/presentation/widgets/login.dart';
 import 'package:login_signup_ui/utils/config.dart';
 import 'package:login_signup_ui/utils/mixins.dart';
 import 'package:login_signup_ui/widgets/privacy_policy.dart';
