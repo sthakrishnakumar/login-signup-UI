@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:login_signup_ui/login%20page/login.dart';
+import 'package:login_signup_ui/login%20page/presentation/widgets/login.dart';
 import 'package:login_signup_ui/utils/config.dart';
 
 void main() {
