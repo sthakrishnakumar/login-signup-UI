@@ -7,14 +7,14 @@ import 'package:login_signup_ui/reset%20password/presentation/widgets/otp_page.d
 import 'package:login_signup_ui/utils/config.dart';
 import 'package:login_signup_ui/utils/mixins.dart';
 
-class ForgotPassword extends StatefulWidget {
-  const ForgotPassword({Key? key}) : super(key: key);
+class ForgotPasswordPage extends StatefulWidget {
+  const ForgotPasswordPage({Key? key}) : super(key: key);
 
   @override
-  State<ForgotPassword> createState() => _ForgotPasswordState();
+  State<ForgotPasswordPage> createState() => _ForgotPasswordPageState();
 }
 
-class _ForgotPasswordState extends State<ForgotPassword>
+class _ForgotPasswordPageState extends State<ForgotPasswordPage>
     with InputValidationMixin {
   final GlobalKey<FormState> resetKey = GlobalKey<FormState>();
   bool errorEmail = false;
