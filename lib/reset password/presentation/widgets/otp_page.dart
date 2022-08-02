@@ -149,7 +149,7 @@ class _OTPPageState extends State<OTPPage> with InputValidationMixin {
                             Navigator.push(
                               context,
                               CupertinoPageRoute(
-                                builder: (context) => const ResetPassword(),
+                                builder: (context) => const ResetPasswordPage(),
                               ),
                             );
                           }

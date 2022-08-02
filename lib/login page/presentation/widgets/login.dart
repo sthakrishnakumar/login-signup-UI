@@ -235,7 +235,8 @@ class _LoginPageState extends State<LoginPage> with InputValidationMixin {
                             Navigator.push(
                               context,
                               CupertinoPageRoute(
-                                builder: (context) => const ForgotPassword(),
+                                builder: (context) =>
+                                    const ForgotPasswordPage(),
                               ),
                             );
                           },

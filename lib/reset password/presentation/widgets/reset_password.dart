@@ -7,14 +7,14 @@ import 'package:login_signup_ui/login%20page/presentation/widgets/login.dart';
 import 'package:login_signup_ui/utils/config.dart';
 import 'package:login_signup_ui/utils/mixins.dart';
 
-class ResetPassword extends StatefulWidget {
-  const ResetPassword({Key? key}) : super(key: key);
+class ResetPasswordPage extends StatefulWidget {
+  const ResetPasswordPage({Key? key}) : super(key: key);
 
   @override
-  State<ResetPassword> createState() => _ResetPasswordState();
+  State<ResetPasswordPage> createState() => _ResetPasswordPageState();
 }
 
-class _ResetPasswordState extends State<ResetPassword>
+class _ResetPasswordPageState extends State<ResetPasswordPage>
     with InputValidationMixin {
   bool passwordError = false;
   bool confirmPasswordError = false;
