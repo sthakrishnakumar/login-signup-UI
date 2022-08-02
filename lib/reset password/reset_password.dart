@@ -264,7 +264,7 @@ class _ResetPasswordState extends State<ResetPassword>
                             Navigator.push(
                               context,
                               CupertinoPageRoute(
-                                builder: (context) => const Login(),
+                                builder: (context) => const LoginPage(),
                               ),
                             );
                           }

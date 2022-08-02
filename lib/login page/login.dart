@@ -1,23 +1,21 @@
-import 'dart:developer';
-
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:login_signup_ui/mainpage.dart';
 import 'package:login_signup_ui/reset%20password/forgot_password.dart';
 import 'package:login_signup_ui/signup%20page/signup.dart';
 import 'package:login_signup_ui/utils/config.dart';
 import 'package:login_signup_ui/utils/mixins.dart';
+import 'package:login_signup_ui/widgets/mainpage.dart';
 
-class Login extends StatefulWidget {
-  const Login({Key? key}) : super(key: key);
+class LoginPage extends StatefulWidget {
+  const LoginPage({Key? key}) : super(key: key);
 
   @override
-  State<Login> createState() => _LoginState();
+  State<LoginPage> createState() => _LoginPageState();
 }
 
-class _LoginState extends State<Login> with InputValidationMixin {
+class _LoginPageState extends State<LoginPage> with InputValidationMixin {
   bool _passwordVisible = false;
   final GlobalKey<FormState> loginformKey = GlobalKey<FormState>();
   final emailController = TextEditingController();
@@ -258,7 +256,6 @@ class _LoginState extends State<Login> with InputValidationMixin {
                     InkWell(
                       onTap: () {
                         if (loginformKey.currentState!.validate()) {
-                          log('val');
                           Navigator.pushReplacement(
                             context,
                             CupertinoPageRoute(

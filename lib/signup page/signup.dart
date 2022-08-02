@@ -359,7 +359,7 @@ class _SignUpPageState extends State<SignUpPage> with InputValidationMixin {
                             Navigator.push(
                               context,
                               CupertinoPageRoute(
-                                builder: (context) => const Login(),
+                                builder: (context) => const LoginPage(),
                               ),
                             );
                           }
@@ -411,7 +411,7 @@ class _SignUpPageState extends State<SignUpPage> with InputValidationMixin {
                         Navigator.push(
                           context,
                           CupertinoPageRoute(
-                            builder: (context) => const Login(),
+                            builder: (context) => const LoginPage(),
                           ),
                         );
                       },

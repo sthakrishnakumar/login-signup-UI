@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
               SystemUiOverlayStyle(statusBarColor: Config.primaryColor),
         ),
       ),
-      home: const Login(),
+      home: const LoginPage(),
     );
   }
 }
